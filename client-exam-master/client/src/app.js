@@ -4,13 +4,13 @@ export class App {
   configureRouter(config, router) {
     this.router = router;
     // config.addPipelineStep('authorize', AuthorizeStep); 
-    config.title = 'Gadgets';
+    config.title = 'Widgets';
     config.map([
       {
-        route: ['', 'gadgets'],
-        name: 'gadgets',
-        moduleId: 'modules/gadgets',
-        title: 'Gadgets',
+        route: ['', 'widgets'],
+        name: 'widgets',
+        moduleId: 'modules/widgets',
+        title: 'Widgets',
         auth: false
       }
 

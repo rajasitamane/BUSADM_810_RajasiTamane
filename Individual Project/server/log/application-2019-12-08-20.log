@@ -1,0 +1,15 @@
+{"level":"info","message":"Loading Mongoose functionality"}
+{"level":"info","message":"Starting Application"}
+{"level":"info","message":"Mongoose connected to the database"}
+{"level":"info","message":"Get all users"}
+{"level":"info","message":"Get all user todos5de73a0e7e62292bac36f727"}
+{"level":"info","message":"Create Todo"}
+{"level":"info","message":"Get all user todos5de73a0e7e62292bac36f727"}
+{"level":"info","message":"Get todo %s5dedb7ec3ab30333ac5522b4"}
+{"level":"info","message":"Get all user todos5de73a0e7e62292bac36f727"}
+{"level":"info","message":"Get todo %s5de9c79b969a48602c2caffa"}
+{"level":"info","message":"Get all user todos5de73a0e7e62292bac36f727"}
+{"level":"info","message":"Create Todo"}
+{"level":"info","message":"Get all user todos5de73a0e7e62292bac36f727"}
+{"level":"info","message":"Get todo %s5dedb8063ab30333ac5522b5"}
+{"level":"info","message":"Get all user todos5de73a0e7e62292bac36f727"}
