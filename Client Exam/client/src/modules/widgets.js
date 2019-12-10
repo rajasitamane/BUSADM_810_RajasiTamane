@@ -1,5 +1,5 @@
 import { inject } from 'aurelia-framework';
-import { Todo } from '../resources/data/gadget-object';
+import { Todo } from '../resources/data/widget-object';
 
 @inject(Todo)
 export class Todos {
