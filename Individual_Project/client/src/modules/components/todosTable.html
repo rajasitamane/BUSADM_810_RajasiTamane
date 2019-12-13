@@ -24,7 +24,7 @@
                     </select></td>
                 <td>${todo.dateDue | dateFormat}</td>
                 <td>
-                    <button click.trigger="deleteTodo(todo)" type="button" class="btn btn-danger btn-sm">Delete</button>
+                    <button click.trigger="deleteTodo(todo)" onClick="window.location.href=window.location.href" type="button" class="btn btn-danger btn-sm">Delete</button>
 
                 </td>
             </tr>

@@ -56,6 +56,6 @@ export class NavBar {
     }
 
     registerUser(){
-        this.router.navigate('todos')
+        this.router.navigate('users')
     }
 }
