@@ -1,0 +1,31 @@
+<template>
+  <!-- <require from="../home.css"></require> -->
+        <form>
+                <div class="form-group">
+                  <label for="MovieInput">Movie title</label>
+                  <input value.bind="Movie.selectedMovie.Movie" type="text" class="form-control" id="MovieInput"
+                    placeholder="Movie title">
+                </div>
+                <div class="form-group">
+                  <label for="MovieDetail">Movie Detail</label>
+                  <textarea value.bind="Movie.selectedMovie.Moviedetail" class="form-control" id="MovieDetail" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="MovieStatus">Watch Date</label>
+                  <flat-picker controlid="watchDate" value.bind="Movie.selectedMovie.dateWatched"></flat-picker>
+                </div>
+                <div class="form-group">
+                  <label for="MovieStatus">Plan Date</label>
+                  <flat-picker controlid="plaDate" value.bind="Movie.selectedMovie.datePlanned"></flat-picker>
+                </div>
+                <div class="form-group">
+                  <label for="MovieStatus">Status</label>
+                  <select value.bind="Movie.selectedMovie.status" class="form-control" id="MovieStatus">
+                    <option repeat.for="status of statuses" model.bind="status">${status}</option>
+                  </select>
+                </div>
+               
+                <button class="btn btn-primary" click.trigger="saveMovie()">Save</button>
+                <button class="btn btn-primary" click.trigger="cancel()">Cancel</button>
+              </form>
+    </template>

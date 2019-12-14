@@ -1,0 +1,34 @@
+* {
+font-family:  Helvetica;
+text-color: #FFFFFF
+}
+
+.warn {
+  font-size: 12px;
+}
+
+h1 {
+    text-align: center;
+  }
+
+h3 {
+    text-align: center;
+ }
+
+ body {
+    background-color:#2B2D42;
+    text-color: #FFFFFF;
+  }
+
+  small_img {
+    height:"50px"; width:"50px";
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img {
+    height:"50%"; width:"50%";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
