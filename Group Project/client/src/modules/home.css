@@ -1,10 +1,5 @@
 * {
 font-family:  Helvetica;
-text-color: #FFFFFF
-}
-
-.warn {
-  font-size: 12px;
 }
 
 h1 {
@@ -17,7 +12,7 @@ h3 {
 
  body {
     background-color:#2B2D42;
-    text-color: #FFFFFF;
+    color: #FFFFFF;
   }
 
   small_img {
@@ -26,7 +21,7 @@ h3 {
     margin-right: auto;
   }
 
-  .img {
+  #img {
     height:"50%"; width:"50%";
     display: block;
     margin-left: auto;

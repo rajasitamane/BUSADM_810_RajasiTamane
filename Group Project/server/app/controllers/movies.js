@@ -3,7 +3,9 @@ var express = require('express'),
     router = express.Router(),
     logger = require('../../config/logger'),
     mongoose = require('mongoose'),
-    Movie = mongoose.model('Movies');
+    Movie = mongoose.model('Movies'),
+    multer=require('multer');
+const upload=multer({dest:'uploads/'});
 
 module.exports = function (app, config) {
     app.use('/api', router);//middleware that installs the router all routes will go below here in this loop only 
@@ -74,8 +76,8 @@ module.exports = function (app, config) {
             });
 
     });
-    router.route('/movies').post((req, res, next) => {
-        console.log(req);
+    router.route('/movies',upload.single('movieImage')).post((req, res, next) => {
+        console.log(req.file);
         logger.log('info', 'Create Movie');
         var movie = new Movie(req.body);
         movie.save()

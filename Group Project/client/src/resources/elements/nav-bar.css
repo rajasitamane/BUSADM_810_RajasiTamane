@@ -1,4 +1,19 @@
-nav {
-    background-color: #F8F32B;
-    text-color: #000000;
-  }
+
+.topnav {
+  overflow: hidden;
+  background-color: #F8F32B;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #000000;
+  color: #F8F32B;
+}

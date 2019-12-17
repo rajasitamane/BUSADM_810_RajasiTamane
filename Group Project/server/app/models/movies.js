@@ -10,7 +10,7 @@ var MoviesSchema = new Schema({
     datePlanned :{type: Date, default: Date.now},
     status: { type: String, Enum: ['Never Watched','In Process', 'Completed'], default: 'In Process' }
     // ,
-    // picture : {
+    // img : {
     //     name:  { type: String },
     //     originalname: { type: String }
     // }
